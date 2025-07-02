@@ -4,7 +4,7 @@ A responsive and visually accurate **Netflix frontend clone** built using **HTML
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the live site](https://netflix-web-beryl.vercel.app/)
+👉 [Click here to view the live site](https://netflix-phi-plum.vercel.app/)
 
 ## 🛠️ Built With
 
