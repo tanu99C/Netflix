@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+}
+
+
+
+
+div.main{
+  background-image: url("assests/images/bg.jpg");
+  height: 70vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(100vw,1200px);
+  position: relative;
+}
+
+.main .box{
+  height: 70vh;
+  width: 100%;
+  opacity: 0.64;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav{
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+nav img{
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button{
+  position: relative;
+  z-index: 10;
+}
+
+.hero{
+  height: calc(100% - 62px);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+position: relative;
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  gap: 15px;
+  padding: 0 30px;
+
+ 
+
+}
+
+.hero> :first-child{
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero> :nth-child(2){
+  font-weight: 400;
+  font-size: 24px;
+text-align: center;
+}
+
+.hero> :nth-child(3){
+ text-align: center;
+}
+
+.separation{
+  height: 5px;
+  background-color: rgb(46, 44, 44);
+
+}
+
+.btn{
+  padding: 4px 15px;
+  
+  background-color: rgba(62, 58, 58, 0.036);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding: 3px 25px;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-red-sm{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.main input{
+  padding: 7px 101px 8px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: rgba(23,23,23,0.2);
+  border: 2px solid rgba(246,238,238,0.5);
+  color: white;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  gap: 18px;
+ 
+}
+
+@media  screen and (max-width: 750px) {
+  .first{
+    flex-wrap: wrap;
+  }
+  
+}
+
+
+
+
+.secImg{
+  margin-top: 40px;
+  width: 30%;
+  margin-bottom: 40px;
+
+  
+  
+}
+
+.first>div :first-child{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 26px;
+  font-weight: bolder;
+
+}
+
+.first>div :nth-child(2){
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  
+}
+
+.first > div{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 34px 0;
+}
+
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+
+}
+
+.faq h2{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.faqbox:hover{
+  background-color: red;
+}
+
+.faqbox{
+  display: flex;
+  font-size: 20px;
+  transition: all 1s ease-out;
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin:  auto;
+  margin-top: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  
+  
+}
+footer{
+  color: white;
+   max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+
+footer .questions{
+  padding : 34px 0;
+}
+
+.footer a{
+  
+  color: white;
+  font-size: 14px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+ 
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  
+
+
+}
+
+
+
